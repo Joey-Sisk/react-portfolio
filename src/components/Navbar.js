@@ -6,32 +6,32 @@ export default function Navbar() {
   return (
     <header className="bg-black">
       <div className="container mx-auto flex justify-between">
-        <nav className="flex">
+        <nav className="flex px-3">
           <NavLink
-            className="monospace inflex-flex items-center py-6 px-3 mr-4 text-blue-100 hover:text-purple-400 text-4xl font-bold tracking-wide"
+            className="custom-font inflex-flex items-center py-6 px-3 mr-4 text-violet-200 hover:text-purple-400 text-4xl font-bold tracking-wide"
             activeClassName="text-white"
             to="/"
             exact
           >
-            Joey Sisk
+            JS
           </NavLink>
           <NavLink
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-purple-400"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
+            activeClassName="text-indigo-100 bg-indigo-700"
             to="/post"
           >
             Blog Post
           </NavLink>
           <NavLink
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-purple-400"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
+            activeClassName="text-indigo-100 bg-indigo-700"
             to="/project"
           >
             Projects
           </NavLink>
           <NavLink
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-purple-400"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
+            activeClassName="text-indigo-100 bg-indigo-700"
             to="/about"
           >
             About Me

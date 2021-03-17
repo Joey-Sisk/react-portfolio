@@ -1,9 +1,13 @@
-@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+/* @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"); */
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap");
 
-.monospace {
-  font-family: 'Inconsolata', monospace;
+.custom-font {
+  font-family: "Buda", cursive;
   font-weight: 700;
 }
 
@@ -15,4 +19,24 @@
 
 .home-name {
   font-size: 150px;
+}
+
+.fixed-background-main {
+  background-image: url("./images/pexels-philippe-donn-1169754-edit.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+.fixed-background-about {
+  background-image: url("./images/pexels-felix-mittermeier-1329917 edit.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
 }

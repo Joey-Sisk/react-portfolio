@@ -51,7 +51,7 @@ export default function SinglePost() {
                   alt={singlePost.name}
                   className="w-10 h-10 rounded-full"
                 />
-                <p className="monospace flex items-center pl-2 text-2xl">
+                <p className="custom-font flex items-center pl-2 text-2xl">
                   {singlePost.name}
                 </p>
               </div>
