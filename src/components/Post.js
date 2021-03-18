@@ -25,12 +25,12 @@ export default function Post() {
   });
 
   return (
-    <main className="bg-purple-100 min-h-screen p-12">
+    <main className="bg-blueGray-100 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center custom-font">
+        <h1 className="text-5xl text-blueGray-800 flex justify-center custom-font">
           Blog Posts Page
         </h1>
-        <h2 className="text-lg text-coolGray-600 flex justify-center mb-12">
+        <h2 className="text-lg text-blueGray-600 flex justify-center mb-12">
           Welcome to my page of blog posts
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

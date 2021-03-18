@@ -4,14 +4,8 @@ import React from "react";
 export default function Home() {
   return (
     <main className="fixed-background-main bg-black">
-      <div></div>
-      {/* <img
-        src={image}
-        alt="Photo by Hristo Fidanov from Pexels"
-        className="absolute w-full h-full object-cover bg-fixed"
-      /> */}
       <section className="relative flex justify-center min-h-screen pt-6 lg:pt-32 px-8">
-        <h1 className="text-6xl text-white font-bold custom-font leading-none lg:leading-snug home-name">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-t from-blueGray-900 to-violet-100 text-6xl font-bold custom-font leading-none lg:leading-snug home-name">
           Joey Sisk
         </h1>
       </section>
