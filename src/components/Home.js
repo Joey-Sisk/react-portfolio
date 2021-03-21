@@ -8,7 +8,7 @@ export default function Home() {
         <div className="block py-3 px-3 my-6 text-center">
           <SocialIcon
             url="https://github.com/Joey-Sisk"
-            className="m-6 hover:opacity-80"
+            className="transition duration-700 m-6 hover:opacity-80"
             target="_blank"
             bgColor="#818CF8"
             fgColor="#0F172A"
@@ -16,7 +16,7 @@ export default function Home() {
           />
           <SocialIcon
             url="https://www.linkedin.com/in/joey-sisk/"
-            className="m-6 hover:opacity-80"
+            className="transition duration-700 m-6 hover:opacity-80"
             target="_blank"
             bgColor="#818CF8"
             fgColor="#0F172A"

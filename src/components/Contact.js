@@ -58,7 +58,7 @@ function Contact() {
             </div>
 
             <button
-              className="w-full rounded-md border-2 border-blueGray-600 my-3 bg-violet-500 hover:bg-violet-400 text-white p-3"
+              className="transition duration-700 w-full rounded-md border-2 border-blueGray-600 my-3 bg-violet-500 hover:bg-violet-400 text-white p-3"
               type="submit"
               disabled={state.submitting}
             >
