@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap");
 
 .custom-font {
-  font-family: "Buda", cursive;
+  font-family: "Buda", Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 

@@ -18,16 +18,16 @@ export default function Navbar() {
           <NavLink
             className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
             activeClassName="text-indigo-100 bg-indigo-900"
-            to="/post"
+            to="/project"
           >
-            Blog Post
+            Projects
           </NavLink>
           <NavLink
             className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
             activeClassName="text-indigo-100 bg-indigo-900"
-            to="/project"
+            to="/contact"
           >
-            Projects
+            Contact
           </NavLink>
           <NavLink
             className="inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
@@ -39,19 +39,19 @@ export default function Navbar() {
           <div className="inline-flex py-3 px-3 my-6">
             <SocialIcon
               url="https://github.com/Joey-Sisk"
-              className="mr-4"
+              className="mx-4 hover:opacity-80"
               target="_blank"
-              bgColor="#333"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
+              bgColor="#E2E8F0"
+              fgColor="#0F172A"
+              style={{ height: 38, width: 38 }}
             />
             <SocialIcon
               url="https://www.linkedin.com/in/joey-sisk/"
-              className="mr-4"
+              className="mx-4 hover:opacity-80"
               target="_blank"
-              bgColor="#333"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
+              bgColor="#E2E8F0"
+              fgColor="#0F172A"
+              style={{ height: 38, width: 38 }}
             />
           </div>
         </nav>

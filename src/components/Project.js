@@ -13,7 +13,8 @@ export default function Project() {
       place,
       description,
       projectType,
-      link,
+      linkLive,
+      linkRepo,
       tags
     }`
       )
@@ -21,18 +22,22 @@ export default function Project() {
       .catch(console.error);
   }, []);
 
+  if (!projectData) return <div className="text-center text-white bg-blueGray-900 min-h-screen">Loading...</div>;
+
+  console.log(projectData[0].title);
+
   return (
-    <main className="bg-blueGray-100 min-h-screen p-12">
+    <main className="bg-blueGray-800 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl text-blueGray-800 flex justify-center custom-font">My Projects</h1>
-        <h2 className="text-lg text-blueGray-600 flex justify-center mb-12">
+        <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font">My Projects</h1>
+        <h2 className="text-2xl text-blueGray-400 flex justify-center mb-12">
           Welcome to my projects page
         </h2>
         <section className="grid grid-columns-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+              <article className="relative rounded-lg shadow-lg bg-blueGray-500 p-16">
+                <h3 className="text-blueGray-100 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={projectData.link}
                     alt={project.title}
@@ -42,7 +47,8 @@ export default function Project() {
                     {projectData.title}
                   </a>
                 </h3>
-                <div className="text-gray-500 text-xs space-x-4">
+                
+                <div className="text-blueGray-200 text-sm space-x-4"><p>{projectData.title}</p>
                   <span>
                     <strong className="font-bold">Finished on</strong>:{" "}
                     {new Date(project.date).toLocaleDateString()}
@@ -62,12 +68,12 @@ export default function Project() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-red=500 font-bold hover:underline hover:text-red-400 text-xl"
+                    className="text-red=500 underline font-bold hover:underline hover:text-indigo-300 text-xl"
                   >
                     View the Project{" "}
-                    <span className="inline-block" role="img" aria-label="right pointer">
+                    {/* <span className="inline-block" role="img" aria-label="right pointer">
                       👉
-                    </span>
+                    </span> */}
                   </a>
                 </div>
               </article>

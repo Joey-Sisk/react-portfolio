@@ -32,7 +32,13 @@ export default {
       },
     },
     {
-      name: "link",
+      name: "linkLive",
+      title: "Live link",
+      type: "url",
+    },
+    {
+      name: "linkRepo",
+      title: "Reposiotory link",
       type: "url",
     },
     {
