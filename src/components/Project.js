@@ -44,7 +44,7 @@ export default function Project() {
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-lg bg-blueGray-500 border-b-8 border-l-4 border-blueGray-600 rounded-3xl md:p-20 p-6">
-                <h3 className="text-blueGray-100 text-3xl font-bold mb-2 hover:text-violet-300">
+                <h3 className="transition duration-700 text-blueGray-100 text-3xl font-bold mb-2 hover:text-violet-300">
                   <a
                     href={project.linkLive}
                     alt={project.title}
@@ -74,7 +74,7 @@ export default function Project() {
                     href={project.linkLive}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
+                    className="transition duration-700 text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
                   >
                     -{" "}
                     <span className="underline">View the Deployed Project</span>
@@ -84,7 +84,7 @@ export default function Project() {
                     href={project.linkRepo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
+                    className="transition duration-700 text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
                   >
                     -{" "}
                     <span className="underline">
