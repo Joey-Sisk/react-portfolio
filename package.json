@@ -19,6 +19,7 @@
     "react-scripts": "4.0.3",
     "react-social-icons": "^4.1.0",
     "react-typical": "^0.1.3",
+    "tailwind-navbar-react": "^1.0.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

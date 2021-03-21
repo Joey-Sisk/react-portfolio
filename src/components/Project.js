@@ -34,16 +34,16 @@ export default function Project() {
   return (
     <main className="bg-blueGray-800 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font">
+        <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font text-center">
           My Projects
         </h1>
-        <h2 className="text-2xl text-blueGray-400 flex justify-center mb-12">
+        <h2 className="text-2xl text-blueGray-400 flex justify-center mb-12 text-center">
           Welcome to my projects page
         </h2>
         <section className="grid grid-columns-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-lg bg-blueGray-500 border-b-8 border-l-4 border-blueGray-600 rounded-3xl p-16">
+              <article className="relative rounded-lg shadow-lg bg-blueGray-500 border-b-8 border-l-4 border-blueGray-600 rounded-3xl md:p-20 p-10">
                 <h3 className="text-blueGray-100 text-3xl font-bold mb-2 hover:text-violet-300">
                   <a
                     href={project.linkLive}

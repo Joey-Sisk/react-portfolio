@@ -38,7 +38,7 @@ export default function About() {
   return (
     <main className="fixed-background-about bg-black">
       <div className="p-10 lg:pt-32 container mx-auto min-h-screen relative">
-        <section className="bg-blueGray-500 border-b-8 border-l-4 border-blueGray-700 rounded-3xl lg:flex p-20">
+        <section className="bg-blueGray-500 border-b-8 border-l-4 border-blueGray-700 rounded-3xl lg:flex md:p-20 p-10">
           {/* <div className="flex justify-center"> */}
           <img
             src={
