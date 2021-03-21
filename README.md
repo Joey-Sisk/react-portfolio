@@ -35,7 +35,7 @@ This portfolio was created with react and incorporates a wide array of concepts 
   
 ## Contributing
 
-This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Fernando Medina, Elizabeth H. and my many fellow UT Bootcamp students.
+This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Fernando Medina, Elizabeth H. and my many fellow UT Bootcamp students. Background images provided by Pexels, originally by Philippe Donn and Felix Mittermeier.
 
 ## Questions
 
