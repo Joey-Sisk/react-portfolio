@@ -3,6 +3,7 @@ import sanityClient from "../client";
 // import image from "../images/pexels-felix-mittermeier-1146134.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
+import Typical from "react-typical";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -25,7 +26,12 @@ export default function About() {
       .catch(console.error);
   }, []);
 
-  if (!author) return <div className="text-center text-white bg-blueGray-900 min-h-screen">Loading...</div>;
+  if (!author)
+    return (
+      <div className="text-center text-white bg-blueGray-900 min-h-screen">
+        Loading...
+      </div>
+    );
 
   console.log(author);
 
@@ -54,6 +60,41 @@ export default function About() {
                 dataset="production"
               />
             </div>
+            <p className="my-6 text-blueGray-100">
+              My skills include:{" "}
+              <Typical
+                steps={[
+                  "JavaScript",
+                  1500,
+                  "React.js",
+                  1200,
+                  "MongoDB",
+                  1200,
+                  "Node.js",
+                  1000,
+                  "Express.js",
+                  900,
+                  "MySQL",
+                  900,
+                  "HTML",
+                  800,
+                  "CSS",
+                  900,
+                  "jQuery",
+                  1000,
+                  "Bootstrap",
+                  1000,
+                  "Tailwind",
+                  1200,
+                  "Socket.io",
+                  1500,
+                  "Sanity.io",
+                  1500
+                ]}
+                loop={Infinity}
+                wrapper="p"
+              />
+            </p>
           </div>
         </section>
       </div>

@@ -38,7 +38,7 @@ export default {
     },
     {
       name: "linkRepo",
-      title: "Reposiotory link",
+      title: "Repository link",
       type: "url",
     },
     {

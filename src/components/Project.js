@@ -22,33 +22,39 @@ export default function Project() {
       .catch(console.error);
   }, []);
 
-  if (!projectData) return <div className="text-center text-white bg-blueGray-900 min-h-screen">Loading...</div>;
+  if (!projectData)
+    return (
+      <div className="text-center text-white bg-blueGray-900 min-h-screen">
+        Loading...
+      </div>
+    );
 
-  console.log(projectData[0].title);
+  console.log(projectData);
 
   return (
     <main className="bg-blueGray-800 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font">My Projects</h1>
+        <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font">
+          My Projects
+        </h1>
         <h2 className="text-2xl text-blueGray-400 flex justify-center mb-12">
           Welcome to my projects page
         </h2>
         <section className="grid grid-columns-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-lg bg-blueGray-500 p-16">
-                <h3 className="text-blueGray-100 text-3xl font-bold mb-2 hover:text-red-700">
+              <article className="relative rounded-lg shadow-lg bg-blueGray-500 border-b-8 border-l-4 border-blueGray-600 rounded-3xl p-16">
+                <h3 className="text-blueGray-100 text-3xl font-bold mb-2 hover:text-violet-300">
                   <a
-                    href={projectData.link}
+                    href={project.linkLive}
                     alt={project.title}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {projectData.title}
+                    {project.title}
                   </a>
                 </h3>
-                
-                <div className="text-blueGray-200 text-sm space-x-4"><p>{projectData.title}</p>
+                <div className="text-violet-100 text-sm space-x-4">
                   <span>
                     <strong className="font-bold">Finished on</strong>:{" "}
                     {new Date(project.date).toLocaleDateString()}
@@ -61,19 +67,29 @@ export default function Project() {
                     <strong className="font-bold">Type</strong>:{" "}
                     {project.projectType}
                   </span>
-                  <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                  <p className="my-6 text-lg text-blueGray-100 leading-relaxed">
                     {project.description}
                   </p>
                   <a
-                    href={project.link}
+                    href={project.linkLive}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-red=500 underline font-bold hover:underline hover:text-indigo-300 text-xl"
+                    className="text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
                   >
-                    View the Project{" "}
-                    {/* <span className="inline-block" role="img" aria-label="right pointer">
-                      👉
-                    </span> */}
+                    -{" "}
+                    <span className="underline">View the Deployed Project</span>
+                  </a>
+                  <br />
+                  <a
+                    href={project.linkRepo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
+                  >
+                    -{" "}
+                    <span className="underline">
+                      View the Project Reposotory
+                    </span>
                   </a>
                 </div>
               </article>
