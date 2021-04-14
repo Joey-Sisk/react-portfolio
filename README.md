@@ -20,7 +20,7 @@ This portfolio was created with react and incorporates a wide array of concepts 
 
 ## Link
 
-[This link will take you to the deployed site on Heroku!](https://joey-sisk.github.io/employee-directory/)
+[This link will take you to the deployed site on Netlify!](https://joey-sisk.github.io/employee-directory/)
 
 ## Screenshot
 
