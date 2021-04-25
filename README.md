@@ -20,7 +20,7 @@ This portfolio was created with react and incorporates a wide array of concepts 
 
 ## Link
 
-[This link will take you to the deployed site on Netlify!](https://joey-sisk.github.io/employee-directory/)
+[This link will take you to the deployed site on Netlify!](https://joeysiskportfolio.netlify.app/)
 
 ## Screenshot
 
@@ -39,4 +39,4 @@ This would not have been possible without the help of my tutor Kumar Ramanathan,
 
 ## Questions
 
-If you have any questions about the app, open an issue or contact me through the contact form on my portfolio website: https://joey-sisk.github.io/Portfolio/. You can find more of my work at [Joey Sisk](github.com/joey-sisk).
+If you have any questions about the app, open an issue or contact me through the contact form on my portfolio website: https://joeysiskportfolio.netlify.app/. You can find more of my work at [Joey Sisk](github.com/joey-sisk).
