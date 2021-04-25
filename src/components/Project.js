@@ -74,7 +74,7 @@ export default function Project() {
                     href={project.linkLive}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition duration-700 text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
+                    className="transition duration-700 text-violet-300 font-bold hover:text-violet-400 text-xl"
                   >
                     -{" "}
                     <span className="underline">View the Deployed Project</span>
@@ -84,12 +84,10 @@ export default function Project() {
                     href={project.linkRepo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition duration-700 text-violet-300 font-bold hover:underline hover:text-violet-400 text-xl"
+                    className="transition duration-700 text-violet-300 font-bold hover:text-violet-400 text-xl"
                   >
                     -{" "}
-                    <span className="underline">
-                      View the Project Reposotory
-                    </span>
+                    <span className="underline">View the Project Reposotory</span>
                   </a>
                 </div>
               </article>
