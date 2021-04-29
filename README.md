@@ -20,7 +20,7 @@ This portfolio was created with react and incorporates a wide array of concepts 
 
 ## Link
 
-[This link will take you to the deployed site on Heroku!](https://joey-sisk.github.io/employee-directory/)
+[This link will take you to the deployed site on Netlify!](https://joeysiskportfolio.netlify.app/)
 
 ## Screenshot
 
@@ -35,8 +35,8 @@ This portfolio was created with react and incorporates a wide array of concepts 
   
 ## Contributing
 
-This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Fernando Medina, Elizabeth H. and my many fellow UT Bootcamp students.
+This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Fernando Medina, Elizabeth H. and my many fellow UT Bootcamp students. Background images provided by Pexels, originally by Philippe Donn and Felix Mittermeier.
 
 ## Questions
 
-If you have any questions about the app, open an issue or contact me through the contact form on my portfolio website: https://joey-sisk.github.io/Portfolio/. You can find more of my work at [Joey Sisk](github.com/joey-sisk).
+If you have any questions about the app, open an issue or contact me through the contact form on my portfolio website: https://joeysiskportfolio.netlify.app/. You can find more of my work at [Joey Sisk](github.com/joey-sisk).
