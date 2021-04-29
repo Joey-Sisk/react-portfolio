@@ -78,7 +78,7 @@ export default function About() {
                   "MySQL",
                   900,
                   "HTML",
-                  800,
+                  900,
                   "CSS",
                   900,
                   "jQuery",
