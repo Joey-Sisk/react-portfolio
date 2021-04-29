@@ -36,7 +36,7 @@ export default function About() {
   console.log(author);
 
   return (
-    <main className="fixed-background-about bg-black">
+    <div className="fixed-background-about bg-black">
       <div className="p-10 lg:pt-32 container mx-auto min-h-screen relative">
         <section className="bg-blueGray-500 border-b-8 border-l-4 border-blueGray-700 rounded-3xl lg:flex md:p-20 p-6">
           {/* <div className="flex justify-center"> */}
@@ -99,6 +99,6 @@ export default function About() {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   );
 }

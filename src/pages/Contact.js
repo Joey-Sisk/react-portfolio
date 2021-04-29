@@ -22,7 +22,7 @@ function Contact() {
   );
   }
   return (
-    <main className="bg-blueGray-800">
+    <div className="bg-blueGray-800">
       <div className="p-10 lg:pt-32 container mx-auto min-h-screen relative">
         <section className="bg-blueGray-500 border-b-8 border-l-4 border-blueGray-600 rounded-3xl lg:flex md:p-20 p-4">
           <form className="form md:p-6 my-6 w-full" onSubmit={handleSubmit}>
@@ -67,7 +67,7 @@ function Contact() {
           </form>
         </section>
       </div>
-    </main>
+    </div>
   );
 }
 

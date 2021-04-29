@@ -6,6 +6,10 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap");
 
+.resume-link {
+  color: aliceblue;
+}
+
 .custom-font {
   font-family: "Buda", Arial, Helvetica, sans-serif;
   font-weight: 700;

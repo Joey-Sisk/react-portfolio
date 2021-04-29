@@ -1,9 +1,10 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
-    <main className="fixed-background-main bg-black">
+    <div className="fixed-background-main bg-black">
       <section className="relative flex justify-start min-h-screen pt-6 lg:pt-32 px-8 flex-col">
         <div className="block py-3 px-3 my-6 text-center">
           <SocialIcon
@@ -27,6 +28,6 @@ export default function Home() {
           </h1>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

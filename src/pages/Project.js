@@ -32,7 +32,7 @@ export default function Project() {
   console.log(projectData);
 
   return (
-    <main className="bg-blueGray-800 min-h-screen p-12">
+    <div className="bg-blueGray-800 min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl text-blueGray-200 flex justify-center custom-font text-center">
           My Projects
@@ -96,6 +96,6 @@ export default function Project() {
             ))}
         </section>
       </section>
-    </main>
+    </div>
   );
 }

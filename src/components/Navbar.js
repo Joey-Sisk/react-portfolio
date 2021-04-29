@@ -21,13 +21,13 @@ export default function Navbar() {
           >
             Projects
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className="transition duration-700 inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
             activeClassName="text-indigo-100 bg-indigo-900"
             to="/contact"
           >
             Contact
-          </NavLink>
+          </NavLink> */}
           <NavLink
             className="transition duration-700 inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400"
             activeClassName="text-indigo-100 bg-indigo-900"
@@ -35,6 +35,9 @@ export default function Navbar() {
           >
             About Me
           </NavLink>
+          <h1 className="transition duration-700 inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400">
+            <a href="https://drive.google.com/file/d/1rOclN0Dhs0nWQifbbqHAFGRb_1BSgsrI/view?usp=sharing">Resume</a>
+          </h1>
         </nav>
       </div>
     </header>
