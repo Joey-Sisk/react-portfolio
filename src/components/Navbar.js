@@ -36,7 +36,7 @@ export default function Navbar() {
             About Me
           </NavLink>
           <h1 className="transition duration-700 inflex-flex items-center py-3 px-3 my-6 rounded text-violet-300 hover:text-purple-400">
-            <a href="https://drive.google.com/file/d/1rOclN0Dhs0nWQifbbqHAFGRb_1BSgsrI/view?usp=sharing" target="_blank">Resume</a>
+            <a href="https://drive.google.com/file/d/15nc0uAKxa6dASMyWtxUL6mwNG323of8x/view?usp=sharing" target="_blank">Resume</a>
           </h1>
         </nav>
       </div>
